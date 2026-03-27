@@ -11,8 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         runner:
-          - monkci-windows-24.04-4-3600iops
-          - windows-latest
+          - monkci-ubuntu-24.04-4-3600iops
+          - ubuntu-latest
     steps:
     - uses: actions/checkout@v4
     - name: Setup .NET
